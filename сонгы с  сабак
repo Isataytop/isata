@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            font-size: 16px;
+        }
+        body{
+            margin: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,sans-serif;
+        }
+        .from-container{
+            max-width:450px;
+            width: 95%;
+            margin: auto;
+            padding: 40px;
+            box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+        }
+        #from{
+
+        }
+        input{
+            display: block;
+            width: 100%;
+            margin: 0.5rem 0;
+            padding: 0.4rem 0;
+            outline: none;
+            font-size: 1rem;
+            letter-spacing: 0.75px;
+            border: none;
+            border-bottom: 1.5px solid rgb(200,200,200);
+            border-radius: 0;
+            transition: 0.2 ease;
+            -webkit-appearance: none;
+        }
+        input:focus{
+            border-color: rgb(100,149,237);
+        }
+        from-heading{
+            margin-top: 0;
+            font-size: 1.5rem;
+            font-weight: 500;
+            letter-spacing:0.75px;
+            color:blue;
+        }
+        input-webkit-autofill{
+            -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+        }
+    </style>
+</head>
+<body>
+    <div class="from-container">
+        <h3 class="from-heading">форма</h3>
+        <from action="" id="from">
+            <div class="field">
+                
+            </div>
+        </from>
+    </div>
+    
+</body>
+</html>
+</html>
